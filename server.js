@@ -20,9 +20,9 @@ const port = 5000;
 
 const db = mysql.createConnection({
   host: "localhost",
-  user: "root",
-  password: "",
-  database: "students",
+  user: "students2004",
+  password: "students2004",
+  database: "students2004",
 });
 
 app.post("/add_user", (req, res) => {
